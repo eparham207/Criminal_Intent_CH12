@@ -36,7 +36,7 @@ class CrimeDetailFragment : Fragment() {
             title = "",
             date = Date(),
             isSolved = false,
-            requiresPolice = false
+            //requiresPolice = false
         )
     }
 
@@ -56,7 +56,7 @@ class CrimeDetailFragment : Fragment() {
 
         binding.contactPoliceButton.setOnClickListener {
             // When the "Contact Police" button is clicked, mark the crime as requiring police intervention
-            crime.requiresPolice = true
+            //crime.requiresPolice = true
 
             binding.apply {
 

@@ -70,7 +70,8 @@ class CrimeListAdapter(private val crimes: List<Crime>) : RecyclerView.Adapter<R
 
     override fun getItemViewType(position: Int): Int {
         val crime = crimes[position]
-        return if (crime.requiresPolice) VIEW_TYPE_POLICE else VIEW_TYPE_NORMAL
+        //return if (crime.requiresPolice) VIEW_TYPE_POLICE else VIEW_TYPE_NORMAL
+        return VIEW_TYPE_NORMAL
     }
 }
     /*override fun onCreateViewHolder(
